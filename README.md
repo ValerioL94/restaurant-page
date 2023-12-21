@@ -1,3 +1,3 @@
 # restaurant-page
 
-Building a simple restaurant page using javascript alone
+Building a simple restaurant homepage using javascript alone
