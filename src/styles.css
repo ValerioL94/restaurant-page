@@ -68,7 +68,28 @@ main>.display {
     min-height: 500px;
     width: 800px;
     background-color: black;
-    opacity: 50%;
+    opacity: 70%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    color: white;
+}
+
+main.display>h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 15px 0;
+}
+
+main.display>p {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+main.display>.note {
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-top: 40px;
 }
 
 footer {
