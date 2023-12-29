@@ -11,6 +11,7 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
+        assetModuleFilename: 'images/[name][ext][query]',
         clean: true,
     },
     module: {
