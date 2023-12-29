@@ -26,7 +26,7 @@ header {
     align-items: center;
     color: white;
     background-color: black;
-    opacity: 70%;
+    opacity: 80%;
     box-sizing: border-box;
     padding-bottom: 15px;
     font-size: 2rem;
@@ -49,8 +49,8 @@ nav>button {
     border-radius: 10px;
 }
 
-nav>button:hover,
-nav>button:focus {
+.clickable:hover,
+.clickable:focus {
     cursor: pointer;
     transition: all .2s ease-in-out;
     transform: scale(1.1);
@@ -64,33 +64,74 @@ main {
     padding: 50px;
 }
 
-main>.display {
+#display {
     min-height: 500px;
     width: 800px;
     background-color: black;
-    opacity: 70%;
+    opacity: 80%;
     padding: 0 50px;
     box-sizing: border-box;
     color: white;
+    font-weight: 600;
 }
 
-main>.display>h1 {
+/* home tab */
+
+main>.home>h1 {
     text-align: center;
     font-size: 3rem;
     margin: 15px 0;
 }
 
-main>.display>p {
+main>.home>p {
     font-size: 2rem;
     margin: 10px 0;
 }
 
-main>.display>.note {
+main>.home>.note {
     font-size: 1rem;
-    font-weight: 900;
     text-decoration: underline;
     margin-top: 40px;
 }
+
+/* menu tab */
+
+main>.menu>h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+main>.menu>.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.container>.dish {
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: sticky;
+    opacity: 100%;
+}
+
+.dish>img {
+    height: 200px;
+    width: 250px;
+}
+
+/* contact tab */
+
+
 
 footer {
     display: flex;
