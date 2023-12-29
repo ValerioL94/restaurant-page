@@ -4,13 +4,16 @@ function createHeader() {
     h1.textContent = "Forest Hut";
     const nav = document.createElement("nav");
     const home = document.createElement("button");
-    home.classList.add("home");
+    home.setAttribute("id", "home");
+    home.classList.add("clickable");
     home.textContent = "Home";
     const menu = document.createElement("button");
-    menu.classList.add("menu");
+    menu.setAttribute("id", "menu");
+    menu.classList.add("clickable");
     menu.textContent = "Menu";
     const contact = document.createElement("button");
-    contact.classList.add("contact");
+    contact.setAttribute("id", "contact");
+    contact.classList.add("clickable");
     contact.textContent = "Contact"
 
     header.appendChild(h1);
@@ -23,7 +26,7 @@ function createHeader() {
 function createMain() {
     const main = document.createElement("main");
     const display = document.createElement("div");
-    display.classList.add("display");
+    display.setAttribute("id", "display");
     main.appendChild(display);
 
     return main;
