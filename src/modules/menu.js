@@ -24,7 +24,7 @@ function createMenu() {
         const dish2 = document.createElement("div");
         dish2.classList.add("dish", "clickable");
         const dish2Img = document.createElement("img");
-        dish2Img.src = "/images/salad.jpg";
+        dish2Img.src = "images/salad.jpg";
         dish2Img.alt = "fruit salad";
         const dish2H2 = document.createElement("h2");
         dish2H2.textContent = "FRUIT SALAD";
@@ -34,7 +34,7 @@ function createMenu() {
         const dish3 = document.createElement("div");
         dish3.classList.add("dish", "clickable");
         const dish3Img = document.createElement("img");
-        dish3Img.src = "/images/steak.jpg";
+        dish3Img.src = "images/steak.jpg";
         dish3Img.alt = "cooked beef steak";
         const dish3H2 = document.createElement("h2");
         dish3H2.textContent = "BEEF STEAK";
@@ -44,7 +44,7 @@ function createMenu() {
         const dish4 = document.createElement("div");
         dish4.classList.add("dish", "clickable");
         const dish4Img = document.createElement("img");
-        dish4Img.src = "/images/salmon.jpg";
+        dish4Img.src = "images/salmon.jpg";
         dish4Img.alt = "grilled salmon";
         const dish4H2 = document.createElement("h2");
         dish4H2.textContent = "GRILLED SALMON";
@@ -54,7 +54,7 @@ function createMenu() {
         const dish5 = document.createElement("div");
         dish5.classList.add("dish", "clickable");
         const dish5Img = document.createElement("img");
-        dish5Img.src = "/images/fruit_cake.jpg";
+        dish5Img.src = "images/fruit_cake.jpg";
         dish5Img.alt = "fruit cake";
         const dish5H2 = document.createElement("h2");
         dish5H2.textContent = "FRUIT CAKE";
@@ -64,7 +64,7 @@ function createMenu() {
         const dish6 = document.createElement("div");
         dish6.classList.add("dish", "clickable");
         const dish6Img = document.createElement("img");
-        dish6Img.src = "/images/hamburger_with_fries.jpg";
+        dish6Img.src = "images/hamburger_with_fries.jpg";
         dish6Img.alt = "hamburger with french fries";
         const dish6H2 = document.createElement("h2");
         dish6H2.textContent = "HAMBURGER & FRIES";
