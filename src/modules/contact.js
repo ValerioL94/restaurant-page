@@ -35,7 +35,8 @@ function createContact() {
         hoursP2.textContent = "Fri-Sun: 8am-11pm";
         const hoursP3 = document.createElement("p");
         hoursP3.textContent = "*Sundays by reservation only";
-        hoursP3.style = "font-weight:600";
+        hoursP3..style.fontWeight = "600";
+        
         const map = document.createElement("div");
         const iframe = document.createElement("iframe");
         iframe.src = "https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d49775.798691976066!2d-88.82850838807937!3d48.003275526775724!3m2!1i1024!2i768!4f13.1!2m1!1sAmerica%2C%20forest!5e1!3m2!1sen!2sit!4v1703927932381!5m2!1sen!2sit";
