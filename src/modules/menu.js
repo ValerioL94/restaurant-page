@@ -14,7 +14,7 @@ function createMenu() {
         const dish1 = document.createElement("div");
         dish1.classList.add("dish", "clickable");
         const dish1Img = document.createElement("img");
-        dish1Img.src = "/images/pesto_pasta.jpg";
+        dish1Img.src = "images/pesto_pasta.jpg";
         dish1Img.alt = "pasta with pesto sauce";
         const dish1H2 = document.createElement("h2");
         dish1H2.textContent = "PESTO PASTA";

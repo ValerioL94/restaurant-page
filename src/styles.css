@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    background-image: url(/src/images/forest-restaurant.jpg);
+    background-image: url(/src/images/forest_restaurant.jpg);
     background-attachment: fixed;
     background-position: 50%;
     background-size: cover;
