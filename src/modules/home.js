@@ -5,6 +5,7 @@ function createHome() {
         display.classList == "contact") {
         display.innerHTML = "";
         display.className = "home";
+
         const title = document.createElement("h1");
         title.textContent = "HOME";
         const p1 = document.createElement("p");
