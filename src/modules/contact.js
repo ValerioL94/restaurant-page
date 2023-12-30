@@ -35,7 +35,7 @@ function createContact() {
         hoursP2.textContent = "Fri-Sun: 8am-11pm";
         const hoursP3 = document.createElement("p");
         hoursP3.textContent = "*Sundays by reservation only";
-        hoursP3..style.fontWeight = "600";
+        hoursP3.style.fontWeight = "600";
         
         const map = document.createElement("div");
         const iframe = document.createElement("iframe");
