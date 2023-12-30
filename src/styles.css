@@ -77,18 +77,18 @@ main {
 
 /* home tab */
 
-main>.home>h1 {
+.home>h1 {
     text-align: center;
     font-size: 3rem;
     margin: 15px 0;
 }
 
-main>.home>p {
+.home>p {
     font-size: 2rem;
     margin: 10px 0;
 }
 
-main>.home>.note {
+.home>.note {
     font-size: 1rem;
     text-decoration: underline;
     margin-top: 40px;
@@ -96,13 +96,13 @@ main>.home>.note {
 
 /* menu tab */
 
-main>.menu>h1 {
+.menu>h1 {
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
 }
 
-main>.menu>.container {
+.menu>.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,7 +112,7 @@ main>.menu>.container {
 }
 
 .container>.dish {
-    height: 350px;
+    height: 360px;
     width: 250px;
     text-align: center;
     padding: 5px;
