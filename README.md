@@ -1,4 +1,4 @@
-# <a href="https://valeriol94.github.io/restaurant-page/">restaurant-page</a>
+# <a href="https://valeriol94.github.io/restaurant-page/">restaurant-page</a> <- Live here
 
 Building a simple restaurant homepage using javascript alone
 
